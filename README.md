@@ -1,13 +1,17 @@
 # CardiovascularDiseaseDetection
 
 Disease Prediction Model using Machine Learning
-## Introduction
+## Project
 This project uses historical data related to diseases to create a machine learning model that can predict whether a person is ill or not based on a set of input features. The model is exposed through an API, allowing users to input their data and receive predictions about their health status.
 
 ## Features
-Historical disease data: Describe the dataset you used, its source, and any preprocessing steps performed on the data.
-Machine learning model: Explain the type of machine learning model you used (e.g., decision tree, random forest, logistic regression) and provide a brief overview of the model's architecture.
-API: Detail how the API was built, what technologies or frameworks were used (e.g., Flask, Django, FastAPI), and how to access it.
+Historical disease data:https://raw.githubusercontent.com/Rafig77/data/main/cardio_train.csv
+Machine learning model:GradientBoostingClassifier,DecisionTreeClassifier ML models are used 
+API: How the API was built via FastAPI 
 
 ## Prerequisites
-List any dependencies or prerequisites required to run the project, including Python libraries, packages, or tools.
+matplotlib==3.7.0
+pandas==1.5.3
+scikit-learn==1.2.1
+numpy=1.23.5
+seaborn==0.12.2
