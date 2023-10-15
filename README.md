@@ -1,7 +1,7 @@
 # CardiovascularDiseaseDetection
 
 Disease Prediction Model using Machine Learning
-Introduction
+## Introduction
 This project uses historical data related to diseases to create a machine learning model that can predict whether a person is ill or not based on a set of input features. The model is exposed through an API, allowing users to input their data and receive predictions about their health status.
 
 Features
