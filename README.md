@@ -15,3 +15,4 @@ pandas==1.5.3
 scikit-learn==1.2.1
 numpy=1.23.5
 seaborn==0.12.2
+Python==3.10.9
